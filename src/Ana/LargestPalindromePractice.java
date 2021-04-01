@@ -8,7 +8,7 @@ import java.util.Locale;
 public class LargestPalindromePractice {
     public static void main(String[] args) {
         String str="Hello dad and madam";
-        String str1 [] =str.split(" ");
+        String str1 [] =str.split("  ");
         ArrayList<String > list = new ArrayList<String>(Arrays.asList(str1));
         System.out.println("Longest  palindrome word is : " +largestPalindrome(list));
 
